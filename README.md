@@ -2,6 +2,16 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Prerequisites
+
+- Node.js (v14 or higher recommended)
+- npm (comes with Node.js)
+
+## Installation
+
+- Clone the repository by first installing git and then open bash terminal
+- git clone https://github.com/<insert-repo-name>.git
+
 ## Available Scripts
 
 In the project directory, you can run:
