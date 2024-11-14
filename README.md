@@ -1,3 +1,10 @@
+# Introduction
+Hey! Its an SDA Project named Mercado, An E-Commerce Website with multiple sellers and buyers
+ 
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
