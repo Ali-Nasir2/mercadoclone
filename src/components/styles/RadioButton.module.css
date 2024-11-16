@@ -1,0 +1,8 @@
+/* src/components/styles/RadioButton.module.css */
+.RadioButton {
+    margin-right: 10px;
+  }
+  
+  .RadioButton input {
+    margin-right: 5px;
+  }
