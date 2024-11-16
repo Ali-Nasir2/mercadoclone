@@ -1,0 +1,19 @@
+.summary-card {
+    font-size: 16px;
+    background-color: #d1f7d1;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .summary-card h3 {
+    color: #333;
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .summary-card p {
+    font-size: 14px;
+    color: #666;
+  }
+  
