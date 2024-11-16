@@ -62,11 +62,14 @@
 
 
 .authForm h2 {
+  color: #333;
   margin-bottom: 0.5rem;
   font-family: 'Adriana'; /* Ensure h2 uses Adriana font */
 }
 
 .authForm p {
+  color: #333; /* Explicitly set the color for the h2 element */
+
   color: #666;
   font-size: 0.9rem;
   font-family: 'Adriana' ; /* Ensure p uses Adriana font */

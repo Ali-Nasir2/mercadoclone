@@ -1,0 +1,26 @@
+/* src/components/styles/Categories.module.css */
+.categories {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .categoryList {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .categoryItem {
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .categoryItem img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .categoryItem p {
+    margin-top: 10px;
+    font-size: 16px;
+  }
