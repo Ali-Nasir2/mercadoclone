@@ -1,0 +1,30 @@
+/* src/components/styles/AuthButton.module.css */
+.authButton {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border: none;
+  border-radius: 30px; /* Adjust border-radius for rounded corners */
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.authButton.primary {
+  background-color: #000;
+  color: #fff;
+}
+
+.authButton.primaryOutline {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.authButton.secondary {
+  background-color: transparent; /* Make the button transparent */
+  color: #000;
+  border: 1px solid #000; /* Add a border to make the button visible */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a shadow */
+  border: radius 20px;
+}

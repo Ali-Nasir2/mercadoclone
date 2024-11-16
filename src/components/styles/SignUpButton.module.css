@@ -1,0 +1,11 @@
+/* src/components/styles/SignUpButton.module.css */
+.signUpButton {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50; /* Green */
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
