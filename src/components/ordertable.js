@@ -3,7 +3,7 @@ import React from 'react';
 const OrderTable = ({ orders }) => {
   return (
     <div className="table-container" style={{ backgroundColor: '#5F9EA0', padding: '20px', borderRadius: '8px', boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)' }}>
-      <h3 style={{ fontFamily: 'Arial', color: '#000000' }}>Order Table</h3>
+      <h3 style={{ fontFamily: 'Adriana', color: '#000000' }}>Order Table</h3>
       <table className="order-table" style={{ width: '100%', borderCollapse: 'collapse', color: '#000000' }}>
         <thead>
           <tr style={{ backgroundColor: '##5F9EA0' }}>

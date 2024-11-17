@@ -3,7 +3,7 @@ import React from 'react';
 const ProductTable = ({ products }) => {
   return (
     <div className="table-container" style={{ backgroundColor: '#A8DADC', padding: '20px', borderRadius: '8px', boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)' }}>
-      <h3 style={{ fontFamily: 'Arial', color: '#264653' }}>Product Table</h3>
+      <h3 style={{ fontFamily: 'Adriana', color: '#264653' }}>Product Table</h3>
       <table className="product-table" style={{ width: '100%', borderCollapse: 'collapse' }}>
         <thead>
           <tr style={{ backgroundColor: '#A8DADC' }}>
