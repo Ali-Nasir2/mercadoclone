@@ -4,6 +4,21 @@
   padding: 20px;
 }
 
+.header {
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  font-family: 'Adriana';
+}
+
+.header p {
+  font-size: 1.2rem;
+  font-family: 'Adriana';
+  color: #666;
+}
+
 .buttonContainer {
   margin-top: 20px;
 }

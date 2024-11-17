@@ -1,0 +1,76 @@
+/* src/components/styles/Banner.module.css */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+  padding: 0 80px; /* Add margins on both sides */
+}
+
+.largeBox {
+  flex: 1.5; /* Adjusted width for the large box */
+  background-color: rgba(22, 63, 173, 0.509); /* Purple background color */
+  padding: 20px;
+  margin-right: 90px; /* Add gap between the large box and the pair of small boxes */
+  border-radius: 10px; /* Rounded edges */
+  text-align: center;
+  height: 300px; /* Set a fixed height for the large box */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+.smallBoxContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 1.5; /* Adjusted width for the small boxes container */
+  justify-content: space-between;
+  margin-left: 20px; /* Add gap between the large box and the pair of small boxes */
+}
+
+.smallBox {
+  padding: 20px;
+  border-radius: 10px; /* Rounded edges */
+  text-align: center;
+  height: 122px; /* Set a fixed height for the small boxes */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+.smallBox:first-child {
+  color: #faf8f8;
+  background-color: rgba(0, 0, 0, 0.833); /* Orange background color for the top right small box */
+  margin-bottom: 20px; /* Ensure there is a gap between the two small boxes */
+}
+
+.smallBox:last-child {
+  background-color: rgba(21, 194, 225, 0.4); /* Black background color for the bottom left small box */
+  color: white; /* White text color for better contrast */
+}
+
+.largeBox h2, .smallBox h2 {
+  font-size: 1.5rem;
+  font-family: 'Adriana';
+  margin-bottom: 10px;
+}
+
+.largeBox p, .smallBox p {
+  font-size: 1rem;
+  font-family: 'Adriana';
+  color: #faf8f8;
+}
+
+.smallBox:last-child p {
+  color: white; /* White text color for better contrast */
+}
+
+.shopNowButton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0px; /* sharp edges */
+  background-color: orange;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.shopNowButton:hover {
+  background-color: #0056b3;
+}

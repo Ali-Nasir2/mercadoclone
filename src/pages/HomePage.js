@@ -1,22 +1,20 @@
 // src/pages/HomePage.js
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Navbar from '../components/Navbar';
+import Banner from '../components/Banner';
+import Categories from '../components/Categories';
+import Listings from '../components/Listings';
+import Footer from '../components/Footer';
 import styles from '../components/styles/HomePage.module.css';
-import SignUpButton from '../components/SignUpButton';
-import LoginButton from '../components/LoginButton';
 
 const HomePage = () => {
   return (
     <div className={styles.homePage}>
-      <h1>Welcome to the Home Page</h1>
-      <div className={styles.buttonContainer}>
-        <Link to="/signup">
-          <SignUpButton />
-        </Link>
-        <Link to="/login">
-          <LoginButton />
-        </Link>
-      </div>
+      <Navbar />
+      <Banner />
+      <Categories />
+      <Listings />
+      <Footer />
     </div>
   );
 };
