@@ -3,7 +3,6 @@ import { Bar } from 'react-chartjs-2';
 import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend } from 'chart.js';
 import ChartDataLabels from 'chartjs-plugin-datalabels';
 
-// Register required Chart.js components
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend, ChartDataLabels);
 
 const BestSellersChart = ({ data = { labels: [], datasets: [] } }) => {
@@ -20,24 +19,24 @@ const BestSellersChart = ({ data = { labels: [], datasets: [] } }) => {
           maintainAspectRatio: false,
           devicePixelRatio: 2,
           plugins: {
-            legend: { position: 'top', labels: { font: { size: 18, family: 'Arial', weight: 'bold', color: '#333' } } },
-            title: { display: true, text: 'Your Top 6 Best Sellers', font: { size: 22, family: 'Arial', weight: 'bold', color: '#333' } },
+            legend: { position: 'top', labels: { font: { size: 18, family: 'Adriana', weight: 'bold', color: '#333' } } },
+            title: { display: true, text: 'Your Top 6 Best Sellers', font: { size: 22, family: 'Adriana', weight: 'bold', color: '#333' } },
             tooltip: { callbacks: { label: (context) => `${context.raw} units` }, bodyFont: { size: 16, weight: 'bold' } },
             datalabels: {
               anchor: 'end',
               align: 'top',
               color: '#333',
-              font: { size: 16, family: 'Arial', weight: 'bold' },
+              font: { size: 16, family: 'Adriana', weight: 'bold' },
               formatter: (value) => `${value} units`,
             },
           },
           scales: {
             x: {
-              ticks: { color: '#333', font: { size: 16, family: 'Arial', weight: 'bold' } },
+              ticks: { color: '#333', font: { size: 16, family: 'Adriana', weight: 'bold' } },
               grid: { color: 'rgba(200, 200, 200, 0.2)' },
             },
             y: {
-              ticks: { color: '#333', font: { size: 16, family: 'Arial', weight: 'bold' }, callback: (value) => `${value}k` },
+              ticks: { color: '#333', font: { size: 16, family: 'Adriana', weight: 'bold' }, callback: (value) => `${value}k` },
               grid: { color: 'rgba(200, 200, 200, 0.2)' },
             },
           },

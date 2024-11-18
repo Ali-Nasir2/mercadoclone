@@ -1,8 +1,8 @@
 .dashboard {
     padding: 20px;
-    font-family: Arial, sans-serif;
-    max-width: 1200px; /* Limit max width to improve readability */
-    margin: 0 auto; /* Center align the dashboard */
+    font-family: Adriana, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto; 
   }
   
   .dashboard-header {
@@ -38,7 +38,7 @@
   .summary-cards {
     display: flex;
     gap: 20px;
-    justify-content: space-between; /* Space between cards */
+    justify-content: space-between; 
     margin-bottom: 20px;
   }
   
@@ -55,12 +55,12 @@
     display: flex;
     gap: 20px;
     margin-bottom: 20px;
-    justify-content: space-between; /* Distribute space equally */
-    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    justify-content: space-between;
+    flex-wrap: wrap; 
   }
   
   .charts div {
-    flex: 1 1 45%; /* Take 45% of width, wrap below if needed */
+    flex: 1 1 45%; 
     background: #f9f9f9;
     padding: 15px;
     border-radius: 8px;
@@ -106,7 +106,6 @@
     background-color: #f2f2f2;
   }
   
-  /* Responsive Design */
   @media (max-width: 768px) {
     .dashboard-header {
       flex-direction: column;
@@ -115,11 +114,11 @@
     }
   
     .charts div {
-      flex: 1 1 100%; /* Full width on small screens */
+      flex: 1 1 100%;
     }
   
     .summary-cards {
-      flex-direction: column; /* Stack summary cards vertically */
+      flex-direction: column; 
     }
   }
   

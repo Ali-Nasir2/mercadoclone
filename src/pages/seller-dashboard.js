@@ -119,8 +119,8 @@ const Dashboard = () => {
   return (
     <div className="dashboard" style={{ backgroundColor: '#FFF9E3', padding: '20px' }}>
       <header className="dashboard-header" style={{ backgroundColor: '#FFF9E3', color: '#264653', padding: '20px', borderRadius: '8px' }}>
-        <h1 style={{ fontFamily: 'Arial', color: '#264653' }}>MERCADO</h1>
-        <h2 style={{ fontFamily: 'Arial', color: '#264653' }}>WELCOME BACK USER</h2>
+        <h1 style={{ fontFamily: 'Italiana', color: '#264653',fontSize: '40px' }}>MERCADO</h1>
+        <h2 style={{ fontFamily: 'Adriana', color: '#264653' }}>WELCOME BACK USER</h2>
         <button className="manage-products-btn" style={{ backgroundColor: '#A8DADC', color: '#264653', borderRadius: '8px', padding: '10px 20px', border: 'none', cursor: 'pointer' }}>Manage Products</button>
       </header>
 

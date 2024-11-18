@@ -2,7 +2,6 @@ import React from 'react';
 import { Pie } from 'react-chartjs-2';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 
-// Register required Chart.js components
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 const ProductSalesChart = ({ data = { labels: [], datasets: [] } }) => {
@@ -19,8 +18,8 @@ const ProductSalesChart = ({ data = { labels: [], datasets: [] } }) => {
           maintainAspectRatio: false,
           devicePixelRatio: 2,
           plugins: {
-            legend: { position: 'top', labels: { font: { size: 18, family: 'Arial', weight: 'bold', color: '#333' } } },
-            title: { display: true, text: 'Product Sales', font: { size: 22, family: 'Arial', weight: 'bold', color: '#333' } },
+            legend: { position: 'top', labels: { font: { size: 18, family: 'Adriana', weight: 'bold', color: '#333' } } },
+            title: { display: true, text: 'Product Sales', font: { size: 22, family: 'Adriana', weight: 'bold', color: '#333' } },
             tooltip: { bodyFont: { size: 16, weight: 'bold' } },
           },
         }}
