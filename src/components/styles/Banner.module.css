@@ -1,69 +1,142 @@
-/* src/components/styles/Banner.module.css */
 .banner {
   display: flex;
   justify-content: space-between;
   margin: 40px;
-  padding: 0 80px; /* Add margins on both sides */
+  padding: 0 80px;
 }
 
 .largeBox {
-  flex: 1.5; /* Adjusted width for the large box */
-  background-color: rgba(22, 63, 173, 0.509); /* Purple background color */
+  flex: 1.5;
+  background-color: #ACC0FC;
   padding: 20px;
-  margin-right: 90px; /* Add gap between the large box and the pair of small boxes */
-  border-radius: 10px; /* Rounded edges */
-  text-align: center;
-  height: 300px; /* Set a fixed height for the large box */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+  margin-right: 90px;
+  border-radius: 10px;
+  height: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
 }
+
+/* Large box text styling */
+.largeBoxTitle {
+  position: absolute;
+  left: 20px;
+  top: 70px;
+  font-size: 2rem;
+  font-family: 'Adriana';
+  color: #000000;  /* Changed to black */
+}
+
+.largeBoxText {
+  position: absolute;
+  left: 20px;
+  top: 120px;
+  font-size: 1.1rem;
+  font-family: 'Adriana';
+  color: #000000;  /* Changed to black */
+}
+
+.largeBoxText2 {
+  position: absolute;
+  left: 20px;
+  top: 145px;
+  font-size: 1.1rem;
+  font-family: 'Adriana';
+  color: #000000;  /* Changed to black */
+}
+
+
+
 
 .smallBoxContainer {
   display: flex;
   flex-direction: column;
-  flex: 1.5; /* Adjusted width for the small boxes container */
+  flex: 1.5;
   justify-content: space-between;
-  margin-left: 20px; /* Add gap between the large box and the pair of small boxes */
+  margin-left: 20px;
 }
 
 .smallBox {
   padding: 20px;
-  border-radius: 10px; /* Rounded edges */
-  text-align: center;
-  height: 122px; /* Set a fixed height for the small boxes */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+  border-radius: 10px;
+  height: 122px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
 }
 
 .smallBox:first-child {
-  color: #faf8f8;
-  background-color: rgba(0, 0, 0, 0.833); /* Orange background color for the top right small box */
-  margin-bottom: 20px; /* Ensure there is a gap between the two small boxes */
+  background-color: rgba(0, 0, 0, 0.833);
+  margin-bottom: 10px;
+  position: relative;
+  top: 0px;
+  left: 0px;
 }
 
 .smallBox:last-child {
-  background-color: rgba(21, 194, 225, 0.4); /* Black background color for the bottom left small box */
-  color: white; /* White text color for better contrast */
+  background-color: #7DB9D7;
+  color: white;
 }
 
-.largeBox h2, .smallBox h2 {
+
+
+.smallBox:first-child h2 {
+  position: absolute;
+  left: 20px;
+  top: 10px;
   font-size: 1.5rem;
   font-family: 'Adriana';
-  margin-bottom: 10px;
+  color: #ffffff;
 }
 
-.largeBox p, .smallBox p {
+.smallBox:first-child p {
+  position: absolute;
+  left: 20px;
+  top: 50px;
   font-size: 1rem;
   font-family: 'Adriana';
-  color: #faf8f8;
+  color: #ffffff;
+}
+
+.smallBox:last-child h2 {
+  position: absolute;
+  left: 250px;
+  top: 10px;
+  font-size: 1.5rem;
+  font-family: 'Adriana';
+  color: #000000;
 }
 
 .smallBox:last-child p {
-  color: white; /* White text color for better contrast */
+  position: absolute;
+  left: 250px;
+  top: 50px;
+  font-size: 1rem;
+  font-family: 'Adriana';
+  color: #000000;
 }
 
-.shopNowButton {
+
+.shopNowButton0 {
+  position: absolute;
+  left: 20px;
+  bottom: 90px;
   padding: 10px 20px;
   border: none;
-  border-radius: 0px; /* sharp edges */
+  border-radius: 0px;
+  background-color: orange;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+.shopNowButton1 {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0px;
   background-color: orange;
   color: white;
   font-size: 16px;
@@ -73,4 +146,72 @@
 
 .shopNowButton:hover {
   background-color: #0056b3;
+}
+
+
+.shopNowButton2 {
+  position: absolute;
+  left: 250px;
+  bottom: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0px;
+  background-color: orange;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.shopNowButton2:hover {
+  background-color: #0056b3;
+}
+
+
+
+.smallBoxImage1 {
+  position: absolute;
+  right: 7px;
+  top: 50%;
+  transform: translateY(-50%);
+  max-height: 280px;
+  max-width: 90%;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.smallBoxImage1:hover {
+  transform: translateY(-50%) scale(1.05);
+}
+
+
+.smallBoxImage2 {
+  position: absolute;
+  right: 300px;
+  top: 50%;
+  transform: translateY(-50%);
+  max-height: 250px;
+  max-width: 40%;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.smallBoxImage2:hover {
+  transform: translateY(-50%) scale(1.05);
+}
+
+
+.bannerImage {
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  max-height: 290px;
+  max-width: 85%;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.bannerImage:hover {
+  transform: translateY(-50%) scale(1.05);
 }
